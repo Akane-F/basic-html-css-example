@@ -2,46 +2,60 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
         <title>On</title>
     </head>
     <body>
         <header>
             <h1>On</h1>
+            <aside>
+                <nav aria-label="Primary Navigation">
+                    <ul>
+                        <li><a href="https://www.on.com/en-ca/explore/about-on">ABOUT</a></li>
+                        <li><a href="https://www.on.com/en-ca/shop/shoes">PRODUCTS</a></li>
+                        <li><a href="https://agenda.events.on.com/">EVENTS</a></li>
+                    </ul>
+                </nav>
+            </aside>
         </header>
-        <aside>
-            <nav aria-label="Primary Navigation">
-                <ol>
-                    <li><a href="https://www.on.com/en-ca/explore/about-on">ABOUT</a></li>
-                    <li><a href="https://www.on.com/en-ca/shop/shoes">PRODUCTS</a></li>
-                    <li><a href="https://agenda.events.on.com/">EVENTS</a></li>
-                </ol>
-            </nav>
-        </aside>
         <main>
-            <section>
-                <h2> - To ignite the human spirit through movement. - </h2>
-                <ul>
-                    <li><h3>ABOUT</h3></li>
+            <section class="section1">
+                <div>
+                    <h2> - To ignite the human spirit through movement. - </h2>
+                    <article>At On, we believe incredible things happen when humans move. Being in motion taps into the place in the subconscious where inspiration lies. It's called flow state: A mindset where action and awareness blur together, leaving us fully immersed in the moment. A hack for the mind, helping us to dream bigger and better.</article>
+                </div>
+                <section class="section3">
+                    <!-- This elements will be changed side by side -->
+                    <div class="product" id="product1">
+                        <h4>Cloud 6</h4>
+                        <img src="./images/cloud6.png" alt="Cloud 6" >
+                    </div>
+                    <div class="product" id="product2">
+                        <h4>Cloud Monster</h4>
+                        <img src="./images/cloudmonster.png" alt="Cloud Monster" >
+                    </div>
+                    <div class="product" id="product3">
+                        <h4>Cloud Monster</h4>
+                        <img src="./images/cloudmonster.png" alt="Cloud Monster" >
+                    </div>
+                </section>
+            </section><section class="section2">
+                <div id="about">
+                    <h3>ABOUT</h3>
                     <ul>
                         <li>2010</li>
                         <li>Switzerland</li>
                     </ul>
-                    <li><h3>PRODUCTS</h3></li>
-                    <!-- This elements will be changed side by side -->
-                    <h4>Cloud 6</h4>
-                    <img src="./images/cloud6.png" height="200" alt="Cloud 6" >
-                    <h4>Cloud Monster</h4>
-                    <img src="./images/cloudmonster.png" height="200" alt="Cloud 6" >
-                    <li><h3>EVENTS</h3></li>
-                    <p>Soft Run Saturday Brooklyn</p>
+                </div>
+                <div id="event">
+                    <h3>EVENTS</h3>
                     <p><time datetime="2025-03-08"> - Saturday, March 8th</time></p>
-                </ul>
+                    <p>Soft Run Saturday Brooklyn</p>
+                </div>
             </section>
-            <article>
-            </article>
         </main>
         <footer>
-            <nav aria-label="Secondary Navigation">
+            <nav aria-label="Secondary Navigation" id="footernav">
                 <a href="https://www.on.com/">On</a>&nbsp;&nbsp;<a href="https://www.salomon.com/">SALOMON</a>&nbsp;&nbsp;<a href="https://www.hoka.com/">HOKA</a>
             </nav>
         </footer>

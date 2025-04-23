@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px;
+}
+ul {
+    list-style-position: inside; /* ← ドットをテキストの内側に表示 */
+}
+header {
+    margin: 20px;
+}
+footer {
+    margin: 20px;
+    height: 100px;
+    background-color: lightgray;
+}
+h1 {
+    background-color: gray;
+    padding: 10px;
+}
+nav {
+    background-color: lightgray;
+    padding: 10px;
+}
+main {
+    margin: 20px;
+    background-color: darkslategrey;
+    padding: 20px;
+}
+section {
+    display: inline-block;
+    vertical-align: top;
+    background-color: gray;
+    padding: 10px;
+}
+.section1 {
+    width: calc(70% - 20px);
+    margin-right: 10px;
+}
+.section2 {
+    width: calc(30% - 20px);
+    margin-left: 10px;
+    height: 404px;                                                 
+}
+.section3 {
+    width: 100%;
+    padding: 0px;
+}
+div {
+    border: 5px solid lightgreen;
+    background-color: white;
+    margin: 10px;
+}
+h3 {
+    padding: 10px;
+}
+article {
+    padding: 10px;
+    font: italic 13px sans-serif;
+    color: darkblue;
+}
+img {
+    height: 200px;
+}
+.product {
+    display: inline-block;
+    width: 32%;
+    margin: 0px;
+}
+#product1 {
+    width: calc(100%/3 - 20px);
+    margin-right: 5px;
+}
+#product2 {
+    width: calc(100%/3 - 20px);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#product3 {
+    width: calc(100%/3 - 20px);
+    margin-left: 5px;
+}
+#event {
+    height: 250px;
+}
+#footernav {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 20px;
+}
